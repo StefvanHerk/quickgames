@@ -1,0 +1,275 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-color: #d1f9ff;
+}
+
+main{
+  display: grid;
+  width: 80%;
+  height: 100%;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: 60% 40%;
+  width: calc(100% - 5rem);
+  height: calc(80% - 3.5rem);
+  gap: 1.5rem;
+  margin: 1rem;
+}
+
+header{
+  width: 100%;
+  height: 20%;
+}
+
+.navbar{
+  width: 100%;
+  height: 100%;
+  background-color: #78a7ff;
+  display: flex;
+}
+
+.puzzels{
+  grid-area: 1 / 1 / span 2 / 2;
+  background-color: #99f1ff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.puzzel{
+  padding: 10px;
+}
+
+.uitleg-spellen{
+  grid-area: 1 / 2 / 2 / span 2;
+  background-color: #99f1ff;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.uitleg-site{
+  background-color: #99f1ff;
+  grid-area: 2 / 2 / 2 / span 2;
+  border-radius: 20px;
+  text-align: center;
+  padding: 1%;
+}
+
+.links{
+  display: none;
+  background-color: #99f1ff;
+  border-radius: 20px;
+}
+
+.logo{
+  height: auto;
+  width: 150%;
+}
+
+.logo-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  padding-top: 3%;
+  padding-left: 3%;
+  width: 20%;
+}
+
+.spel-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+}
+
+.spel-1, .spel-2, .spel-3{
+  background-color: #ffffff;
+  height: 30%;
+  width: auto;
+  border-radius: 20px;
+  transition: height 0.3s ease-in 0.2s, width 0.3s ease-in 0.2s;
+}
+
+.spel-1 img, .spel-2 img, .spel-3 img {
+  height: 100%;
+  width: auto;
+  border-radius: 20px;
+}
+
+.spel-1:hover, .spel-2:hover, .spel-3:hover{
+  height: 50%;
+  width: auto;
+  transition: height 0.3s ease-in 0.2s, width 0.3s ease-in 0.2s;
+}
+.site-naam{
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media{
+  width: 40%;
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 1%;
+}
+
+.facebook{
+  padding: 0 2%;
+}
+
+.instagram{
+  padding: 0 2%;
+}
+
+@media only screen and (min-width: 1000px){
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+  }
+
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+
+  body{
+    background-color: #d1f9ff;
+  }
+
+  main{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 60% 40%;
+    width: calc(100% - 5rem);
+    height: calc(80% - 3.5rem);
+    gap: 1.5rem;
+    margin: 1rem;
+  }
+
+  header{
+    width: 100%;
+    height: 20%;
+  }
+
+  .navbar{
+    width: 100%;
+    height: 100%;
+    background-color: #78a7ff;
+    display: flex;
+  }
+
+  .puzzels{
+    background-color: #99f1ff;
+    grid-area: 1 / 1 / span 2 / 2;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .puzzel{
+    padding: 10px;
+  }
+
+  .uitleg-spellen{
+    background-color: #99f1ff;
+    grid-area: 1 / 2 / 2 / span 2;
+    border-radius: 20px;
+    overflow: hidden;
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+
+  .uitleg-site{
+    background-color: #99f1ff;
+    grid-area: 2 / 2 / 2 / 2;
+    border-radius: 20px;
+    text-align: center;
+    padding: 1%;
+  }
+
+  .links{
+    display: inherit;
+    background-color: #99f1ff;
+    border-radius: 20px;
+    grid-area: 2 / 3 / 2 / 4;
+  }
+
+  .logo{
+    height: 100%;
+    width: auto;
+  }
+
+  .logo-container{
+    display: block;
+    height: 80%;
+    padding-top: 1%;
+    padding-left: 1%;
+    width: 20%;
+  }
+
+  .spel-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  .spel-1, .spel-2, .spel-3{
+    background-color: #ffffff;
+    height: 10rem;
+    width: auto;
+    border-radius: 20px;
+    transition: height 0.3s ease-in 0.2s, width 0.3s ease-in 0.2s;
+  }
+
+  .spel-1 img, .spel-2 img, .spel-3 img {
+    height: 100%;
+    width: auto;
+    border-radius: 20px;
+  }
+
+  .spel-1:hover, .spel-2:hover, .spel-3:hover{
+    height: 100%;
+    width: auto;
+    transition: height 0.3s ease-in 0.2s, width 0.3s ease-in 0.2s;
+  }
+
+  .site-naam{
+    width: 40%;
+    display: flex;
+    align-items: center;
+  }
+
+  .social-media{
+    width: 80%;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 1%;
+  }
+
+  .facebook{
+    padding: 0 2%;
+  }
+
+  .instagram{
+    padding: 0 2%;
+  }
+}

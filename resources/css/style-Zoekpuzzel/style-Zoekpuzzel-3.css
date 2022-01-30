@@ -1,0 +1,196 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-color: #d1f9ff;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 40% 10% 50%;
+  width: calc(100% - 2rem);
+  height: calc(80% - 3.5rem);
+  gap: 1.5rem;
+  margin: 1rem;
+}
+
+header{
+  width: 100%;
+  height: 20%;
+}
+.navbar{
+  width: 100%;
+  height: 100%;
+  background-color: #78a7ff;
+}
+
+.levels{
+  background-color: #99f1ff;
+  grid-area: 3 / 1 / 4 / 2;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.level{
+  padding: 10px;
+}
+
+.game{
+  background-image: url("../../img/zoekplaatje 3.jpg");
+  background-size: 100% 100%;
+  grid-area: 1 / 1 / 2 / 2;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hintbar{
+  background-color: #99f1ff;
+  grid-area: 2 / 1 / 3 / 2;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.logo{
+  height: 100%;
+}
+
+.logo-container{
+  height: 80%;
+  padding: 1%;
+}
+
+.logo-container{
+  height: 80%;
+  padding: 1%;
+}
+
+.zoekitem{
+  width: 100%;
+}
+
+.volgende-puzzel{
+  width: 5%;
+  height: auto;
+  margin-right: 70%;
+  margin-top: 50%;
+  transition: height 0.3s ease-in 0.2s, width 0.3s ease-in 0.2s;
+}
+
+.volgende-puzzel:hover{
+  width: 20%;
+  height: auto;
+  transition: height 0.3s ease-in 0.5s, width 0.3s ease-in 0.5s;
+  cursor: default;
+}
+
+@media only screen and (min-width: 1000px){
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-color: #d1f9ff;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: 60% 40%;
+  width: calc(100% - 5rem);
+  height: calc(80% - 3.5rem);
+  gap: 1.5rem;
+  margin: 1rem;
+}
+
+header{
+  width: 100%;
+  height: 20%;
+}
+.navbar{
+  width: 100%;
+  height: 100%;
+  background-color: #78a7ff;
+}
+
+.levels{
+  background-color: #99f1ff;
+  grid-area: 1 / 1 / span 2 / 2;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.level{
+  padding: 10px;
+}
+
+.game{
+  background-image: url("../../img/zoekplaatje 3.jpg");
+  background-size: 100% 100%;
+  grid-area: 1 / 2 / 3 / 3;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hintbar{
+  background-color: #99f1ff;
+  grid-area: 1 / 3 / 3 / 4;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.logo{
+  height: 100%;
+}
+
+.logo-container{
+  height: 80%;
+  padding: 1%;
+}
+
+.zoekitem{
+  width: 100%;
+}
+
+.volgende-puzzel{
+  width: 5%;
+  height: auto;
+  margin-right: 70%;
+  margin-top: 50%;
+  transition: height 0.3s ease-in 0.2s, width 0.3s ease-in 0.2s;
+}
+
+.volgende-puzzel:hover{
+  width: 20%;
+  height: auto;
+  transition: height 0.3s ease-in 0.5s, width 0.3s ease-in 0.5s;
+  cursor: default;
+}
+}
