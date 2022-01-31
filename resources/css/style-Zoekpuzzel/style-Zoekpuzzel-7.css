@@ -49,7 +49,7 @@ header{
 }
 
 .game{
-  background-image: url("../../img/zoekpuzzel-7.png");
+  background-image: url("../../img/zoekpuzzel-7.jpg");
   background-size: 100% 100%;
   grid-area: 1 / 1 / 2 / 2;
   border-radius: 20px;
