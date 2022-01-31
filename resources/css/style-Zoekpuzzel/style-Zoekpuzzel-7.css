@@ -49,7 +49,7 @@ header{
 }
 
 .game{
-  background-image: url("../../img/zoekpuzzel-7.jpg");
+  background-image: url("../../img/zoekpuzzel-7.png");
   background-size: 100% 100%;
   grid-area: 1 / 1 / 2 / 2;
   border-radius: 20px;
@@ -150,7 +150,7 @@ header{
 }
 
 .game{
-  background-image: url("../../img/zoekpuzzel-7.png");
+  background-image: url("../../img/zoekpuzzel-7.PNG");
   background-size: 100% 100%;
   grid-area: 1 / 2 / 3 / 3;
   border-radius: 20px;
