@@ -48,6 +48,9 @@ header{
 
 .puzzel{
   padding: 10px;
+  text-decoration: none;
+  font-size: 130%;
+  background-color: #99f1ff;
 }
 
 .uitleg-spellen{
@@ -69,6 +72,7 @@ header{
   display: none;
   background-color: #99f1ff;
   border-radius: 20px;
+  text-align: center;
 }
 
 .logo{
@@ -95,21 +99,20 @@ header{
   width: 100%;
 }
 
-.spel-1, .spel-2, .spel-3{
-  background-color: #ffffff;
+.spel-1, .spel-2{
   height: 30%;
   width: auto;
   border-radius: 20px;
   transition: height 0.3s ease-in 0.2s, width 0.3s ease-in 0.2s;
 }
 
-.spel-1 img, .spel-2 img, .spel-3 img {
+.spel-1 img, .spel-2 img{
   height: 100%;
   width: auto;
   border-radius: 20px;
 }
 
-.spel-1:hover, .spel-2:hover, .spel-3:hover{
+.spel-1:hover, .spel-2:hover{
   height: 50%;
   width: auto;
   transition: height 0.3s ease-in 0.2s, width 0.3s ease-in 0.2s;
